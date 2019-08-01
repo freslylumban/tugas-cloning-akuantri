@@ -1,0 +1,18 @@
+.container {
+  width: 100%;
+}
+.nav {
+  padding: 0 50px;
+  display: grid;
+}
+.nav .gambar-logo {
+  grid-row: 0.5;
+  grid-column: 0.5;
+}
+.nav .gambar-logo a.logo img {
+  width: 180px;
+}
+.nav .navigasi {
+  grid-row: 0.5;
+  grid-column: 0.66666667;
+}
