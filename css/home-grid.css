@@ -10,6 +10,10 @@ body {
 .container .header {
   padding: 0 100px;
   display: grid;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #ffffff;
 }
 .container .header .logo {
   height: 90px;
@@ -46,6 +50,17 @@ body {
   color: #474747;
 }
 .container .header .navigate ul li a:hover {
+  color: #62BB33;
+}
+.container .header .navigate ul li.active {
+  display: inline;
+  padding: 0 10px;
+}
+.container .header .navigate ul li.active a {
+  text-decoration: none;
+  color: #62BB33;
+}
+.container .header .navigate ul li.active a:hover {
   color: #62BB33;
 }
 .container .header .navigate .btn-signup {
@@ -124,6 +139,14 @@ body {
   width: 50%;
   min-height: 200px;
 }
+.container .service .content-service .box-1 .service-1,
+.container .service .content-service .box-1 .service-2,
+.container .service .content-service .box-1 .service-3,
+.container .service .content-service .box-1 .service-4,
+.container .service .content-service .box-1 .service-5,
+.container .service .content-service .box-1 .service-6 {
+  margin: 0 0 50px 0;
+}
 .container .service .content-service .box-1 span {
   float: left;
   height: 80px;
@@ -141,4 +164,9 @@ body {
 .container .service .content-service .box-2 {
   width: 50%;
   min-height: 200px;
+  position: relative;
+}
+.container .service .content-service .box-2 img {
+  position: absolute;
+  top: -130px;
 }
