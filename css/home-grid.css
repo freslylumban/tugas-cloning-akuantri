@@ -6,6 +6,9 @@ body {
   /* section header */
   /* section banner */
   /* section service */
+  /* section faq */
+  /* section testi */
+  /* section advantages */
 }
 .container .header {
   padding: 0 100px;
@@ -169,4 +172,149 @@ body {
 .container .service .content-service .box-2 img {
   position: absolute;
   top: -130px;
+}
+.container .faq {
+  padding: 50px 100px;
+  background-color: #efefef;
+}
+.container .faq .title-faq {
+  text-align: center;
+}
+.container .faq .title-faq h1 {
+  margin: 0;
+  font-size: 34px;
+  position: relative;
+  padding: 0 0 10px 0;
+}
+.container .faq .title-faq h1::after {
+  position: absolute;
+  top: 100%;
+  left: 48%;
+  content: "";
+  width: 50px;
+  height: 4px;
+  background: #00B906;
+}
+.container .faq .title-faq p {
+  margin: 0;
+  padding: 20px 0 0;
+  font-size: 20px;
+  color: #1a1a1a;
+}
+.container .faq .content-faq {
+  padding: 80px 0 0;
+  display: flex;
+}
+.container .faq .content-faq .box-faq-1 {
+  width: 50%;
+  min-height: 30px;
+  margin: 0 10px 0 0;
+}
+.container .faq .content-faq .box-faq-2 {
+  width: 50%;
+  min-height: 30px;
+  margin: 0 0 0 10px;
+}
+.container .faq .content-faq .faq-1,
+.container .faq .content-faq .faq-2,
+.container .faq .content-faq .faq-3,
+.container .faq .content-faq .faq-4,
+.container .faq .content-faq .faq-5,
+.container .faq .content-faq .faq-6 {
+  margin: 0 0 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.container .faq .content-faq .faq-1 h3,
+.container .faq .content-faq .faq-2 h3,
+.container .faq .content-faq .faq-3 h3,
+.container .faq .content-faq .faq-4 h3,
+.container .faq .content-faq .faq-5 h3,
+.container .faq .content-faq .faq-6 h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000000;
+}
+.container .testi {
+  padding: 50px 100px;
+  background-color: #ffffff;
+}
+.container .testi .title-testi {
+  text-align: center;
+}
+.container .testi .title-testi h1 {
+  margin: 0;
+  font-size: 34px;
+  position: relative;
+  padding: 0 0 10px 0;
+}
+.container .testi .title-testi h1::after {
+  position: absolute;
+  top: 100%;
+  left: 48%;
+  content: "";
+  width: 50px;
+  height: 4px;
+  background: #00B906;
+}
+.container .testi .title-testi p {
+  margin: 0;
+  padding: 20px 0 0;
+  font-size: 20px;
+  color: #1a1a1a;
+}
+.container .testi .content-testi {
+  padding: 80px 0 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.container .testi .content-testi img.img-testi {
+  width: 350px;
+  height: 350px;
+}
+.container .advantages {
+  padding: 50px 100px 70px;
+  background-color: #efefef;
+  display: flex;
+  justify-content: space-around;
+}
+.container .advantages .box-ads-1,
+.container .advantages .box-ads-2,
+.container .advantages .box-ads-3 {
+  width: 33%;
+  min-height: 100px;
+  padding: 0 10px;
+  text-align: center;
+}
+.container .advantages .box-ads-1 .icon,
+.container .advantages .box-ads-2 .icon,
+.container .advantages .box-ads-3 .icon {
+  margin: 0 0 20px;
+}
+.container .advantages .box-ads-1 .icon i,
+.container .advantages .box-ads-2 .icon i,
+.container .advantages .box-ads-3 .icon i {
+  font-size: 40px;
+  padding: 25px;
+  border: 1px solid #00b906;
+  border-radius: 50%;
+  color: #00b906;
+}
+.container .advantages .box-ads-1 h3,
+.container .advantages .box-ads-2 h3,
+.container .advantages .box-ads-3 h3 {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0 0 30px;
+  color: #000000;
+}
+.container .advantages .box-ads-1 p,
+.container .advantages .box-ads-2 p,
+.container .advantages .box-ads-3 p {
+  font-size: 16px;
+  margin: 0;
+  color: #777777;
 }
